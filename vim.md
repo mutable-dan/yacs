@@ -104,6 +104,6 @@ Marker names
 - A-Z mark between files
 
 
-# Other vim cheat sheets
+#### Other vim cheat sheets
 
 [vimsheet.com](http://vimsheet.com/ "vimsheet" )
