@@ -36,9 +36,6 @@ window
 
 ^b-[     enter into buffer mode, pgup, pgdn
 
-
-http://www.danielmiessler.com/study/tmux/
-
 ------------------------------------------------------
 mouse
 set -g mode-mouse on
