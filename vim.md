@@ -1,7 +1,6 @@
 # vim 
 ### YACS - yet another cheat sheet
 
-# TOC
 Table|of|Contents
 --------- | ---------- | -------
 [Basic settings](#basic-settings)|[Misc](#misc)|[Macros](#macros)
