@@ -1,6 +1,11 @@
 # vim 
 ### YACS - yet another cheat sheet
 
+# TOC
+* [Basic settings](#basic-settings)
+* [Misc](#misc)
+* [Macros](#macros)
+
 #### basic settings
 
 Long form | short form | example
@@ -39,6 +44,7 @@ play|n@a  where option n is the number of repeats
 #### Misc stuff
 
 - fd - forward to char d
+- td - backwards to char d
 - G -end of file
 - 22gg - line 22
 - dtb - delete to char b
@@ -93,3 +99,8 @@ del all markers|delmarks!
 Marker names
 - a-z mark within file
 - A-Z mark between files
+
+
+Other vim cheat sheets:
+
+[vimsheet.com](http://vimsheet.com/ "vimsheet" )
