@@ -2,16 +2,11 @@
 ### YACS - yet another cheat sheet
 
 # TOC
-* [Basic settings](#basic-settings)
-* [Misc](#misc)
-* [Macros](#macros)
-* [Macros](#Misc-stuff)
-* [Macros](#registers)
-* [Macros](#paste-into-search-line)
-* [Macros](#registers)
-* [Macros](#block-select-mode)
-* [Macros](#markers)
-* [Macros](#Other-vim-cheat-sheets)
+Table|of|Contents
+--------- | ---------- | -------
+[Basic settings](#basic-settings)|[Misc](#misc)|[Macros](#macros)
+[Move commands](#moving)|[Registers](#registers)|[Paste into line](#paste-into-search-line)
+[Block select mode](#block-select-mode)|[Markers](#markers)|[Others CS](#Other-vim-cheat-sheets)|
 
 
 #### basic settings
@@ -49,7 +44,7 @@ end record|q
 play|n@a  where option n is the number of repeats
 
 
-#### Misc stuff
+#### Moving
 
 - fd - forward to char d
 - td - backwards to char d
