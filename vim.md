@@ -93,7 +93,7 @@ set marker to a|ma
 goto a line of marker a|'a      
 goto line and column of marker|`a      
 next or prev mark line|]'  ['   
-next or prev mark column|]`  [`   
+next or prev mark column|```]`  [` ```
 delete from cursor pos to marker|d'a    
 delete marker a|delm a
 del all markers|delmarks! 
