@@ -5,6 +5,14 @@
 * [Basic settings](#basic-settings)
 * [Misc](#misc)
 * [Macros](#macros)
+* [Macros](#Misc-stuff)
+* [Macros](#registers)
+* [Macros](#paste-into-search-line)
+* [Macros](#registers)
+* [Macros](#block-select-mode)
+* [Macros](#markers)
+* [Macros](#Other-vim-cheat-sheets)
+
 
 #### basic settings
 
