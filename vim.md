@@ -33,6 +33,8 @@ slit window|:sp
 resize window|:res +5
 move split|ctrl-w arrow or + -
 no highlight|:noh
+undo|u
+re-do|^r
 
 #### macros
 
