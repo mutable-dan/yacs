@@ -6,6 +6,7 @@ Table|of|Contents
 [Basic settings](#basic-settings)|[Misc](#misc)|[Macros](#macros)
 [Move commands](#moving)|[Registers](#registers)|[Paste into line](#paste-into-search-line)
 [Block select mode](#block-select-mode)|[Markers](#markers)|[Others CS](#Other-vim-cheat-sheets)|
+[indent](#indent)|
 
 
 #### basic settings
@@ -20,10 +21,28 @@ smartindent|si|set si
 shiftwidth|sw|set sw=3
 nowrap|nowrap|set nowrap
 
+#### additional settings
+Long form | short form | example
+--------- | ---------- | -------
+cindent|ci|set ci
+softtabstop|softtabstop|set softtabstop=3
+
+
 example
 ```
 :set nu ai et ts=3 sw=3 nowrap
 ```
+#### indent
+
+Description | example
+----------- | -------
+indent by shiftwidth|>>  <<
+indent n lines by shiftwidth|n>> n<<
+re-indent|==
+re-indent n lines|n==
+re-indent entire file|gg=G
+indent on brace|>% <% =%
+indent from marker|>'a
 
 #### misc
 
@@ -35,6 +54,7 @@ move split|ctrl-w arrow or + -
 no highlight|:noh
 undo|u
 re-do|^r
+repeat last cmd|.
 
 #### macros
 
