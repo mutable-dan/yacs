@@ -68,7 +68,7 @@ play|n@a  where option n is the number of repeats
 #### Moving
 
 - fd - forward to char d
-- td - backwards to char d
+- Fd - backwards to char d
 - G -end of file
 - 22gg - line 22
 - dtb - delete to char b
