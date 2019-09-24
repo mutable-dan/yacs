@@ -38,7 +38,7 @@ Here is some stuff to get basic work done
 ```
 
 **Example**
-.,+22n  print 22 lines from current
+.,+32n  print 32 lines from current
 
 **edit mode**
 ```
