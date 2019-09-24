@@ -1,5 +1,6 @@
 why ed?
 3270 terminal emulator is line based.
+
 Here is some stuff to get basic work done
 
 **symbols**
