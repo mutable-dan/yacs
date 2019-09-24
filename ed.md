@@ -22,13 +22,13 @@ Here is some stuff to get basic work done
 * q       quit
 * Q       quit no save
 * u       undo command
-* w       save (can specify ne file name)
+* w       save (can specify new file name)
 * [.,.]d  delete lines or current line
 * [.,.]c  change lines or current line
 * [.,.]j  join lines or current line
 * i       insert before current line
-* [.,.]m. move lines or current line to current
-* [.,.tm. copy lines or current line to current
+* [.,.]m  move lines or current line to current
+* [.,.]t  copy lines or current line to current
 * [.,.]n  print lines or current line with line numbers
 * [.,.]p  print lines or current line 
 * [.,.]l  print lines or current line wait for neeline at end of page (don't do this w/ big files!)
