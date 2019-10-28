@@ -4,7 +4,7 @@
 c3270 
 
 ### Info
-[ibm ref: cp cms info!](https://www.ibm.com/support/knowledgecenter/SSB27U_6.4.0/com.ibm.zvm.v640.pdf/pdf.htm#zvmoper)
+[ibm ref: cp cms info](https://www.ibm.com/support/knowledgecenter/SSB27U_6.4.0/com.ibm.zvm.v640.pdf/pdf.htm#zvmoper)
 
 ### io devices
 * pun   punch
