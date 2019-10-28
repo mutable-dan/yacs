@@ -1,19 +1,19 @@
 ## Some commands for CP and CMS in z/VM
 
-## Terminal
+### Terminal
 c3270 
 
-## Info
+### Info
 [ibm ref: cp cms info!](https://www.ibm.com/support/knowledgecenter/SSB27U_6.4.0/com.ibm.zvm.v640.pdf/pdf.htm#zvmoper)
 
-## io devices
+### io devices
 * pun   punch
 * ptr   printer
 * rdr   reader
   
 device id A -> personal
 
-## cp 
+### cp 
 
 * logon user here
 * q userid
@@ -21,7 +21,7 @@ device id A -> personal
 * q v dasd
 * q links
 
-### from VM #cp q userid
+#### from VM #cp q userid
 
 acc id drive (associate id to drive)
   ex acc 191 a
@@ -33,23 +33,23 @@ q rdr all
 purge rdr all
 
   
-## cms
+### cms
 ipl cms
 
-### flist
+#### flist
 ```
 flist a b c
   name type mode (drive)
   ex flist * exec a, flist, flist * * a
 ```
 
-### from cp
+#### from cp
 - copy name type mode TO name type mode
 - copy rhel kernel d kernel img a
 - rename name type mod TO name type mode
 - erase name type mod TO name type mode
 
-### rename in flist
+#### rename in flist
 ```
 on line type
      rename / <F11>  a b =        rename file to a b and keep drive
@@ -57,13 +57,13 @@ on line type
 
   F11 clears to EOL
 ```
-### copy and erase in flist
+#### copy and erase in flist
 ```
 copy / a b =
 erase <F11>  
 ```
 
-### wipe v dasd
+#### wipe v dasd
 ```
 ickdsf
 console
