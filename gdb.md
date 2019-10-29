@@ -1,5 +1,6 @@
 ## gdb stuff
--tui
+
+### in tui mode  ==> ^c-^a or gdb -tui
 
 - ^x-1   2 win view
 - ^x-2   3 win view
