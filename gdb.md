@@ -67,3 +67,9 @@ where line 1 sets base project dir
 lines 2,3 add source for libraries with debug  
 
 gdb> source br
+
+
+### set tty to other terminal
+to send io to /dev/pts/10  
+gdb> tty /dev/pts/10  
+
