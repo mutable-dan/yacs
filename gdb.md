@@ -9,6 +9,22 @@
 - ^x-s   single key mode
 - ^l     refresh
 
+### nav
+n  
+s  
+fin  
+c  
+r  
+u  
+j  (set break after jump line)  j +- n, j n  
+b
+tb
+b if expr
+enable n
+disable n
+kill
+
+
 ### fork and exec
 - set follow-fork-mode [same|new]
 - set follow-exec-mode [parent|child]
@@ -16,9 +32,23 @@ catch exec
   
 ### source 
 - set directories
+
+### vars
+- ptype
+- p
+- disp
+- ser var =  
+
+### info
+- info args|local|frame|break|watch|var  
   
-### threads
+### frames
 - bt (backtrace)
+- f  
+- f n
+- up
+- down  
+### threads
 - bt all threads
 - thread apply all bt
   
