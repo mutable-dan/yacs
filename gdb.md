@@ -13,9 +13,9 @@
 n  
 s  
 fin  
-c  
+c  [can do c n times]
 r  
-u  
+u n 
 j  (set break after jump line)  j +- n, j n  
 b
 tb
