@@ -76,7 +76,7 @@ end
 ```
 
 
-## xedit
+#### xedit
 ```
 i  on the ===== put line belkow
 d  on the ===== del line
@@ -88,3 +88,7 @@ qquit
 file
 save  
 ```
+
+####  access vm from guest  
+vmcp run cp commands  
+vmur access spooler  
