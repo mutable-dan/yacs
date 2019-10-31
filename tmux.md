@@ -43,3 +43,12 @@ set -g mouse-resize-pane on
 set -g mouse-select-pane on
 set -g mouse-select-window on
 ```
+
+#### changed timeout for biding q for switching panes  
+https://unix.stackexchange.com/questions/307696/how-to-increase-tmux-pane-numbers-display-time-ctrl-b-q  
+
+in .tmux.conf  
+```
+set -g display-panes-time 5000
+```
+
