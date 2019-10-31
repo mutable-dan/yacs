@@ -1,3 +1,6 @@
+#### references  
+https://man.openbsd.org/tmux.1
+
 ```
 ^b-h     help
 
@@ -51,4 +54,9 @@ in .tmux.conf
 ```
 set -g display-panes-time 5000
 ```
+
+get cmd from tmux:  
+binding :  
+
+
 
