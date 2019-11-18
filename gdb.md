@@ -56,6 +56,7 @@ catch exec
 - apply gdb command to thread
 -- thread apply [thread no|all] [command]  
 -- thread apply all bt  
+-- break 10 thread 2
   
 ### run with params
 - gdb -tui --args app options < file
