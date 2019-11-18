@@ -49,8 +49,13 @@ catch exec
 - up
 - down  
 ### threads
+- info threads
+- thread #   -- switch thread
+- break at thread #
 - bt all threads
-- thread apply all bt
+- apply gdb command to thread
+-- thread apply [thread no|all] [command]  
+-- thread apply all bt  
   
 ### run with params
 - gdb -tui --args app options < file
