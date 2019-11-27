@@ -7,9 +7,10 @@ c3270
 [ibm ref: cp cms info](https://www.ibm.com/support/knowledgecenter/SSB27U_6.4.0/com.ibm.zvm.v640.pdf/pdf.htm#zvmoper)
 
 ### io devices
-* pun   punch
-* ptr   printer
-* rdr   reader
+* pun   punch    00D
+* ptr   printer  00E
+* rdr   reader   00C 
+* cons console   009
   
 device id A -> personal
 
