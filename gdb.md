@@ -63,7 +63,7 @@ catch exec
 - or
 - gdb> r -opt < file
   
-### using file for some project setting
+### using file for some project setting where br is a break file
 file br   
 ===== set directories /home/user/dev/project  
 ===== dir /home/user/dev/project/libs  
@@ -73,6 +73,14 @@ where line 1 sets base project dir
 lines 2,3 add source for libraries with debug  
 
 gdb> source br
+
+#### info on shared libs
+info sharedlibrary
+see syms -> Yes/No if it has symbols
+    Read if it has (*) with a not regarding debugging info
+    
+
+
 
 
 ### set tty to other terminal
