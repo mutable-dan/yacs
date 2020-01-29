@@ -47,6 +47,10 @@ bind it to a key where r allows repeat:
 bind-key -r < swap-window -t -
 bind-key -r > swap-window -t +
 
+or bind to ctrl-shift left arrow:
+bind-key -n C-S-Left swap-window -t -1
+bind-key -n C-S-Right swap-window -t +1
+
 
 ^b-[     enter into buffer mode, pgup, pgdn
 
