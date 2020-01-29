@@ -6,7 +6,7 @@ Table|of|Contents
 [Basic settings](#basic-settings)|[Misc](#misc)|[Macros](#macros)
 [Move commands](#moving)|[Registers](#registers)|[Paste into line](#paste-into-search-line)
 [Block select mode](#block-select-mode)|[Markers](#markers)|[Others CS](#Other-vim-cheat-sheets)|
-[indent](#indent)|[ctags](ctags)
+[indent](#indent)|[ctags](#ctags)
 
 
 #### basic settings
@@ -126,9 +126,10 @@ Marker names
 - A-Z mark between files
 
 #### ctags
-^-] - find tag
-ta - goto tag name
-also ta, tn, tp
+- run ctags -R -> vim will see tag file 
+- ^-] - find tag 
+- ta - goto tag name 
+- also ta, tn, tp 
 
 #### Other vim cheat sheets
 
