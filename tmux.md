@@ -48,8 +48,12 @@ bind-key -r < swap-window -t -
 bind-key -r > swap-window -t +
 
 or bind to ctrl-shift left arrow:
-bind-key -n C-S-Left swap-window -t -1
+bind-key -n C-S-Left  swap-window -t -1
 bind-key -n C-S-Right swap-window -t +1
+
+Atl-arrow to change window:
+bind-key -n M-Left  select-window -t -
+bind-key -n M-Right select-window -t +
 
 
 ^b-[     enter into buffer mode, pgup, pgdn
