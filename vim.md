@@ -6,7 +6,7 @@ Table|of|Contents
 [Basic settings](#basic-settings)|[Misc](#misc)|[Macros](#macros)
 [Move commands](#moving)|[Registers](#registers)|[Paste into line](#paste-into-search-line)
 [Block select mode](#block-select-mode)|[Markers](#markers)|[Others CS](#Other-vim-cheat-sheets)|
-[indent](#indent)|
+[indent](#indent)|[ctags](ctags)
 
 
 #### basic settings
@@ -76,6 +76,7 @@ play|n@a  where option n is the number of repeats
 - cc - change line
 - % - brace match
 - set showmatch
+- ^o - go back prev position
 
 #### registers
 Registers in Vim let you run actions or commands on text stored within them. To access a register, you type "a before a command, where a is the name of a register. If you want to copy the current line into register k, you can type
@@ -124,7 +125,13 @@ Marker names
 - a-z mark within file
 - A-Z mark between files
 
+#### ctags
+^-] - find tag
+ta - goto tag name
+also ta, tn, tp
 
 #### Other vim cheat sheets
 
 [vimsheet.com](http://vimsheet.com/ "vimsheet" )
+
+
