@@ -36,6 +36,17 @@ window
 ^b-,     rename
 ^b-[0-9] switch to win #
 
+move window back/fwd  (^b :)
+swap-window -t -
+swap-window -t +
+
+swap terminal 2 with 1
+swap-window -s 2 -t 1
+
+bind it to a key where r allows repeat:
+bind-key -r < swap-window -t -
+bind-key -r > swap-window -t +
+
 
 ^b-[     enter into buffer mode, pgup, pgdn
 
