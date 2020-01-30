@@ -6,7 +6,9 @@ Table|of|Contents
 [Basic settings](#basic-settings)|[Misc](#misc)|[Macros](#macros)
 [Move commands](#moving)|[Registers](#registers)|[Paste into line](#paste-into-search-line)
 [Block select mode](#block-select-mode)|[Markers](#markers)|[Others CS](#Other-vim-cheat-sheets)|
-[indent](#indent)|[ctags](#ctags)|[windows splits](#window-splits)
+[indent](#indent)|[ctags](#ctags)|[windows splits](#window-splits)|
+[tabs](#tabs)
+
 
 
 #### basic settings
@@ -126,23 +128,33 @@ Marker names
 - A-Z mark between files
 
 #### Window splits
-- :sp - split [file] - ^ws
+- :sp - split [file] - ^ws or ^wn
 - :vs - vsplit [file]  - ^wv
 - :help split
 - :close
 - :ls show files
 - :b # open file in window
 - ^w arrow
+- ^wn next
+- ^wp prev
+- ^wo close all but
+- ^wc close 
 - ^w w toggle
 - ^w (+-)  resize
 - ^w_  zoom window
 - ^w= unzoom
 - #^w(+-)
-- ^w o close all but
 - ^w R
 - ^wHJKL ??
 - ^wr
 - ^wx
+
+#### tabs
+- :tabnew
+- :tabn next
+- :tabp prev
+- :tabc close
+- :tabo close all but
 
 
 #### ctags
