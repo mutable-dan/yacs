@@ -126,8 +126,8 @@ Marker names
 - A-Z mark between files
 
 #### Window splits
-- :sp - split [file]
-- :vs - vsplit [file]  - ^w^v
+- :sp - split [file] - ^ws
+- :vs - vsplit [file]  - ^wv
 - :help split
 - :close
 - :ls show files
@@ -140,7 +140,9 @@ Marker names
 - #^w(+-)
 - ^w o close all but
 - ^w R
-
+- ^wHJKL ??
+- ^wr
+- ^wx
 
 
 #### ctags
