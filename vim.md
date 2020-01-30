@@ -141,7 +141,8 @@ Marker names
 - ^wc close 
 - ^w w toggle
 - ^w (+-)  resize
-- ^w_  zoom window
+- ^w_  zoom horizontal window
+- ^w|  zoom vertical window
 - ^w= unzoom
 - #^w(+-)
 - ^w R
