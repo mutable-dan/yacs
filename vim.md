@@ -6,7 +6,7 @@ Table|of|Contents
 [Basic settings](#basic-settings)|[Misc](#misc)|[Macros](#macros)
 [Move commands](#moving)|[Registers](#registers)|[Paste into line](#paste-into-search-line)
 [Block select mode](#block-select-mode)|[Markers](#markers)|[Others CS](#Other-vim-cheat-sheets)|
-[indent](#indent)|[ctags](#ctags)
+[indent](#indent)|[ctags](#ctags)|[windows splits](#window-splits)
 
 
 #### basic settings
@@ -124,6 +124,24 @@ del all markers|delmarks!
 Marker names
 - a-z mark within file
 - A-Z mark between files
+
+#### Window splits
+- :sp - split [file]
+- :vs - vsplit [file]  - ^w^v
+- :help split
+- :close
+- :ls show files
+- :b # open file in window
+- ^w arrow
+- ^w w toggle
+- ^w (+-)  resize
+- ^w_  zoom window
+- ^w= unzoom
+- #^w(+-)
+- ^w o close all but
+- ^w R
+
+
 
 #### ctags
 - run ctags -R -> vim will see tag file 
