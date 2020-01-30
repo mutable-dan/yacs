@@ -150,11 +150,16 @@ Marker names
 - ^wx
 
 #### tabs
+- :tabs
 - :tabnew
 - :tabn next
 - :tabp prev
 - :tabc close
 - :tabo close all but
+- :tabf
+- :tabl
+- :tabm [#]
+
 
 
 #### ctags
