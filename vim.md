@@ -57,6 +57,7 @@ no highlight|:noh
 undo|u
 re-do|^r
 repeat last cmd|.
+retab|:retab
 
 #### macros
 
