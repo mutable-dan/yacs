@@ -139,11 +139,12 @@ Marker names
 - ^wp prev
 - ^wo close all but
 - ^wc close 
-- ^w w toggle
-- ^w (+-)  resize
+- ^ww toggle
+- ^w(+-)  resize (horiz) :resize +n|-n|n
+- ^w(<>) resize (virt)  :vert resize +n|-n|n
 - ^w_  zoom horizontal window
 - ^w|  zoom vertical window
-- ^w= unzoom
+- ^w= equal size
 - #^w(+-)
 - ^w R
 - ^wHJKL ??
