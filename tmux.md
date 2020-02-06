@@ -35,6 +35,7 @@ window
 ^b-w     list
 ^b-,     rename
 ^b-[0-9] switch to win #
+^b pgup or ]  scroll (q to quit)
 
 move window back/fwd  (^b :):
 swap-window -t -
