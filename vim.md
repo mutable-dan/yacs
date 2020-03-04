@@ -110,11 +110,11 @@ or ^r ^w
 - gv  reselect block
 - v/   select to search term
 Insert with block mode 
-  c-v 
-  mv cursor  (down) 
-  I 
-  (enter text) 
-  ESC 
+ -  c-v 
+ -  mv cursor  (down) 
+ -  I 
+ -  (enter text) 
+ -  ESC 
 
 
 #### markers
