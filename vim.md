@@ -147,7 +147,7 @@ Marker names
 - ^wo close all but
 - ^wc close 
 - ^ww toggle
-- ^w j,k (top bottom, h,l (left, right)
+- ^w j,k (bottom, top), h,l (left, right)
 - ^w(+-)  resize (horiz) :resize +n|-n|n
 - ^w(<>) resize (virt)  :vert resize +n|-n|n
 - ^w_  zoom horizontal window
