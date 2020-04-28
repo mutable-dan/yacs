@@ -62,6 +62,9 @@ catch exec
 - gdb -tui --args app options < file
 - or
 - gdb> r -opt < file
+
+### send ctrl-c to program
+- signal SIGINT
   
 ### using file for some project setting where br is a break file
 file br   
