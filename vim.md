@@ -70,6 +70,11 @@ play|n@a  where option n is the number of repeats
 
 #### Moving
 
+- w W b B e E - chars w/o a space
+- ^ - firdt non blanch char
+- g_ - last non blank char
+- ctrl-d u - half page
+- n% - % pos in file
 - fd - forward to char d
 - Fd - backwards to char d
 - G -end of file
