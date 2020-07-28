@@ -44,6 +44,9 @@ swap-window -t +
 swap terminal 2 with 1:
 swap-window -s 2 -t 1
 
+swap current window with #
+swap-window -t #
+
 bind it to a key where r allows repeat:
 bind-key -r < swap-window -t -
 bind-key -r > swap-window -t +
