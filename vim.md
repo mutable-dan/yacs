@@ -7,7 +7,7 @@ Table|of|Contents
 [Move commands](#moving)|[Registers](#registers)|[Paste into line](#paste-into-search-line)
 [Block select mode](#block-select-mode)|[Markers](#markers)|[Others CS](#Other-vim-cheat-sheets)|
 [indent](#indent)|[ctags](#ctags)|[windows splits](#window-splits)|
-[tabs](#tabs)
+[tabs](#tabs)|[Showchars](#showchar)
 
 
 
@@ -182,6 +182,11 @@ Marker names
 - ^-] - find tag 
 - ta - goto tag name 
 - also ta, tn, tp 
+
+#### showchar
+- :set list -> show control char, spaces and tab chars
+- set listchars=tab:!·,trail:·,  -> custom chars
+
 
 #### Other vim cheat sheets
 
