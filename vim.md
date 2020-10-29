@@ -18,6 +18,7 @@ Long form | short form | example
 number|nu|set nu
 tabstop|ts|set ts=3
 expandtab|ex or et|set ex
+noexpandtab|noex or noet|set noex
 autoindent|ai|set ai
 smartindent|si|set si
 shiftwidth|sw|set sw=3
