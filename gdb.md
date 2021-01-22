@@ -82,7 +82,8 @@ info sharedlibrary
 see syms -> Yes/No if it has symbols
     Read if it has (*) with a not regarding debugging info
     
-
+#### core
+gcore [path] - core dump with verbosity
 
 
 
