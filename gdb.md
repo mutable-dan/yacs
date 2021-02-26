@@ -59,15 +59,15 @@ catch exec
 -- break 10 thread 2
 
 #### debug on a thread 
-- set scheduler-locking [off|on|replay|step] 
--- off -> any thread may run at any time 
--- on -> only the current thread may run when 
--- step -> single-stepping prevents other threads from preempting 
--- replay -> off in record mode and like on in replay 
+- set scheduler-locking [off|on|replay|step]
+  - off  any thread may run at any time 
+  - on  only the current thread may run when 
+  - step  single-stepping prevents other threads from preempting 
+  - replay  off in record mode and like on in replay 
 - set schedule-multiple  [on|off] 
--- on -> all threads of all processes are allowed to run (i see as default to on despite the info in link below) 
--- off -> only the threads of the current process are resumed 
---- but set non-stop on (default show non-stop off) 
+  - on  all threads of all processes are allowed to run (i see as default to on despite the info in link below) 
+  - off  only the threads of the current process are resumed 
+    - but set non-stop on (default show non-stop off) 
 https://sourceware.org/gdb/onlinedocs/gdb/Thread-Stops.html#Thread-Stops 
 
   
