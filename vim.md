@@ -95,7 +95,7 @@ scrolling
 - #zz or #z. - line # to middle
 - z- or zb - current line to bottom
 - #z- or #zb - line # to bottom
-- https://unix.stackexchange.com/questions/110251/how-to-put-current-line-at-top-center-bottom-of-screen-in-vim
+- [scrolling](https://unix.stackexchange.com/questions/110251/how-to-put-current-line-at-top-center-bottom-of-screen-in-vim)
 
 #### registers
 Registers in Vim let you run actions or commands on text stored within them. To access a register, you type "a before a command, where a is the name of a register. If you want to copy the current line into register k, you can type
