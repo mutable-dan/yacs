@@ -7,7 +7,7 @@ Table|of|Contents
 [Move commands](#moving)|[Registers](#registers)|[Paste into line](#paste-into-search-line)
 [Block select mode](#block-select-mode)|[Markers](#markers)|[Others CS](#Other-vim-cheat-sheets)|
 [indent](#indent)|[ctags](#ctags)|[windows splits](#window-splits)|
-[tabs](#tabs)|[Showchars](#showchar)[Scroll Commands(#scrolling)
+[tabs](#tabs)|[Showchars](#showchar)|[Scroll Commands(#scrolling)
 
 
 
