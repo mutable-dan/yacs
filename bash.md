@@ -18,7 +18,7 @@ alias h='history'
 alias lsblk='lsblk |grep -v snap'  
 alias p3='python3'  
   
-alias reload='source ~/.bash_alias'  
+alias reload='source ~/.bash_aliases'  
 
 
 
