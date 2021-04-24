@@ -7,7 +7,7 @@ Table|of|Contents
 [Move commands](#moving)|[Registers](#registers)|[Paste into line](#paste-into-search-line)
 [Block select mode](#block-select-mode)|[Markers](#markers)|[Others CS](#Other-vim-cheat-sheets)|
 [indent](#indent)|[ctags](#ctags)|[windows splits](#window-splits)|
-[tabs](#tabs)|[Showchars](#showchar)
+[tabs](#tabs)|[Showchars](#showchar)[Scroll Commands(#scrolling)
 
 
 
@@ -87,7 +87,7 @@ play|n@a  where option n is the number of repeats
 - set showmatch
 - ^o - go back prev position
 
-scrolling
+#### scrolling
 - z<t|z|b> top, middle, bottom
 - z <cr> or zt -current line to top of page
 - #z <cr> or zt - line # to top
