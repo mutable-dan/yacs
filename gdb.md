@@ -104,3 +104,17 @@ gcore [path] - core dump with verbosity
 to send io to /dev/pts/10  
 gdb> tty /dev/pts/10  
 
+
+https://sourceware.org/gdb/onlinedocs/gdb/Forks.html
+
+set follow-fork-mode mode 
+ Set the debugger response to a program call of fork or vfork. A call to fork or vfork creates a new process 
+ 
+show follow-fork-mode 
+  Display the current debugger response to a fork or vfork call 
+    
+show detach-on-fork 
+  Show whether detach-on-fork mode is on/off 
+
+    
+
