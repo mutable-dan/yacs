@@ -70,6 +70,7 @@ play|n@a  where option n is the number of repeats
 :1,10norm! @a|Apply macro in reg a to lines 1-10
 :%norm! @a|Apply macro in reg a to all lines
 g/pattern/normal! @a|run macro a on all lines that match the pattern
+let @a='ctrl-r ctrl-r a'|Paste current macro, put in .vimrc to save a macro
 
 
 #### Moving
