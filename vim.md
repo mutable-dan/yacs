@@ -51,7 +51,7 @@ indent from marker|>'a
 
 Description | example
 ----------- | -------
-slit window|:sp
+split window|:sp
 resize window|:res +5
 move split|ctrl-w arrow or + -
 no highlight|:noh
@@ -180,6 +180,16 @@ Marker names
 - ^wr
 - ^wx
 
+ #### Window move
+ - ctrl w window command mode
+ - R window up/left
+ - r window down/right
+ - L window to far right
+ - H window to far left
+ - J window to top
+ - K window to bottom
+ - x ^x current window to closest to right
+ - :help window-moving
 #### tabs
 - :tabs
 - :tabnew
