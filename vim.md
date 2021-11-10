@@ -59,6 +59,7 @@ undo|u
 re-do|^r
 repeat last cmd|.
 retab|:retab
+open term|:term
 
 #### macros
 
