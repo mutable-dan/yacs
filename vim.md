@@ -8,6 +8,7 @@ Table|of|Contents
 [Block select mode](#block-select-mode)|[Markers](#markers)|[Others CS](#Other-vim-cheat-sheets)|
 [indent](#indent)|[ctags](#ctags)|[windows splits](#window-splits)|
 [tabs](#tabs)|[Showchars](#showchar)|[Scroll Commands](#scrolling)
+[Window move](#window-move)
 
 
 
@@ -190,6 +191,7 @@ Marker names
  - K window to bottom
  - x ^x current window to closest to right
  - :help window-moving
+ 
 #### tabs
 - :tabs
 - :tabnew
