@@ -182,7 +182,7 @@ Marker names
 - ^wx
 
  #### Window move
- - ctrl w window command mode
+ - ^w window command mode
  - R window up/left
  - r window down/right
  - L window to far right
@@ -190,6 +190,7 @@ Marker names
  - J window to top
  - K window to bottom
  - x ^x current window to closest to right
+ - N leave terminal mode  (i to enter back into terminal mode)
  - :help window-moving
  
 #### tabs
