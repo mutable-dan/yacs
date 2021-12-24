@@ -8,7 +8,7 @@ Table|of|Contents
 [Block select mode](#block-select-mode)|[Markers](#markers)|[Others CS](#Other-vim-cheat-sheets)|
 [indent](#indent)|[ctags](#ctags)|[windows splits](#window-splits)|
 [tabs](#tabs)|[Showchars](#showchar)|[Scroll Commands](#scrolling)
-[Window move](#window-move)
+[Window move](#window-move)|[Range](#range)
 
 
 
@@ -204,6 +204,8 @@ Marker names
 - :tabl
 - :tabm [#]
 
+ #### range
+:n,md delte lines . through m, where n or m can be . or $
 
 
 #### ctags
