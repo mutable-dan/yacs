@@ -8,7 +8,7 @@ Table|of|Contents
 [Block select mode](#block-select-mode)|[Markers](#markers)|[Others CS](#Other-vim-cheat-sheets)|
 [indent](#indent)|[ctags](#ctags)|[windows splits](#window-splits)|
 [tabs](#tabs)|[Showchars](#showchar)|[Scroll Commands](#scrolling)
-[Window move](#window-move)|[Range](#range)
+[Window move](#window-move)|[Range](#range)|[Sessions](#session)
 
 
 
@@ -207,6 +207,12 @@ Marker names
  #### range
 :n,md delte lines . through m, where n or m can be . or $
 
+ #### session
+ :wv [file]  - save viminfo to optional specified file
+ :rv [file]  - restore viminfo
+ :mks file   -  save session
+ vim -S file
+ 
 
 #### ctags
 - run ctags -R -> vim will see tag file 
