@@ -22,13 +22,13 @@ alias reload='source ~/.bash_aliases'
 
 
 ---------------
-redirect stdout & stderr for all following
+redirect stdout & stderr for all following 
 
-#!/bin/bash
-exec &>> /out.log
-
-can also put in block
-{
-  ...
-} exec &>> /out.log
+#!/bin/bash 
+exec &>> /out.log 
+ 
+can also put in block 
+{ 
+  ... 
+} exec &>> /out.log 
 
