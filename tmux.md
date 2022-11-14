@@ -60,7 +60,14 @@ bind-key -n M-Left  select-window -t -
 bind-key -n M-Right select-window -t +
 
 
-^b-[     enter into buffer mode, pgup, pgdn
+^b-[  - enter into buffer mode, pgup, pgdn
+arrow pgup/dn - to goto the start position
+^-space - mark start position
+arrow pgup/dn - to goto the end position
+^-w - copy text to to tmux buffer
+- switch to pane or file
+^b ] - to paste tmux buffer
+
 
 ------------------------------------------------------
 mouse
