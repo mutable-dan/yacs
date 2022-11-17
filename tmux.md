@@ -25,7 +25,7 @@ pane
 ^b-!     break out pane
 ^b-{     move pane left
 ^b-}     move pane right
-^barrow  change pane
+^b arrow  change pane
 ^b[alt-arrow]     resize pane
 
 window
@@ -83,7 +83,11 @@ https://unix.stackexchange.com/questions/307696/how-to-increase-tmux-pane-number
 in .tmux.conf  
 ```
 set -g display-panes-time 5000
+set-option -g display-time 4000
 ```
+display-panes-time - display when you show pane number 
+display-time 4000 - display for status messages
+
 
 get cmd from tmux:  
 binding :  
