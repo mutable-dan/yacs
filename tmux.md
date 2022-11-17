@@ -14,7 +14,7 @@ sessions
 ^b-d     detach
 ^b-&     kill window
 
-pane
+# pane
 ^b-%     split vert
 ^b-“     split horiz
 ^b-x     close current
@@ -27,6 +27,9 @@ pane
 ^b-}     move pane right
 ^b arrow  change pane
 ^b[alt-arrow]     resize pane
+
+# layout
+^b-<space>    cycle layouts
 
 window
 ^b-c     create win
