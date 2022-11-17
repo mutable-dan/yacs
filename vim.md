@@ -110,9 +110,9 @@ Show registers
 :reg
 
 Where k is the register name:
-- "kyy  - yank line to register k
-- "Kyy  - append to a register by using a capital letter
-- "kp - past reg k
+- "ky  - yank line to register k
+- "Ky  - append to a register by using a capital letter
+- "kp - paste reg k
 - "+y - copy to clipboard
 - "+p - paste from system clipboard on Linux
 - "*p - paste from "mouse highlight" clipboard on Linux
