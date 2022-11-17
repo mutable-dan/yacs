@@ -59,8 +59,8 @@ Atl-arrow to change window:
 bind-key -n M-Left  select-window -t -
 bind-key -n M-Right select-window -t +
 
-
-^b-[  - enter into buffer mode, pgup, pgdn
+# copy
+^b-[  - enter into copy mode, pgup, pgdn
 arrow pgup/dn - to goto the start position
 ^-space - mark start position
 arrow pgup/dn - to goto the end position
@@ -68,6 +68,12 @@ arrow pgup/dn - to goto the end position
 - switch to pane or file
 ^b ] - to paste tmux buffer
 
+^b:show-buffer
+^b:capture-pane
+^b:list-buffers
+^b:choose-buffer
+^b:save-buffer file
+^b:delete-buffer -b 1
 
 ------------------------------------------------------
 mouse
