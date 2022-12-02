@@ -9,36 +9,36 @@ https://man.openbsd.org/tmux.1
 tmux ls
 tmux attach -t[term]
 sessions
-^b-s     list
-^b-$     rename
-^b-d     detach
-^b-&     kill window
+`^b-s`     list
+`^b-$`     rename
+`^b-d`     detach
+`^b-&`     kill window
 
 # pane
-^b-%     split vert
-^b-“     split horiz
-^b-x     close current
-^b-q     show pane #
-^b-o     next 
-^b-;     prev
-^b-arrow switch pane
-^b-!     break out pane
-^b-{     move pane left
-^b-}     move pane right
-^b arrow  change pane
-^b[alt-arrow]     resize pane
+`^b-%`     split vert
+`^b-“`     split horiz
+`^b-x`     close current
+`^b-q`     show pane #
+`^b-o`     next 
+`^b-;`     prev
+`^b-arrow` switch pane
+`^b-!`     break out pane
+`^b-{`     move pane left
+`^b-}`     move pane right
+`^b arrow`  change pane
+`^b[alt-arrow]`     resize pane
 
 # layout
-^b-<space>    cycle layouts
+`^b-<space>`    cycle layouts
 
 window
-^b-c     create win
-^b-n     next win
-^b-p     pref win
-^b-w     list
-^b-,     rename
-^b-[0-9] switch to win #
-^b pgup or ]  scroll (q to quit)
+`^b-c`     create win
+`^b-n`     next win
+`^b-p`     pref win
+`^b-w`     list
+`^b-,`     rename
+`^b-[0-9]` switch to win #
+`^b pgup or ]`  scroll (q to quit)
 
 move window back/fwd  (^b :):
 swap-window -t -
@@ -55,12 +55,12 @@ bind-key -r < swap-window -t -
 bind-key -r > swap-window -t +
 
 or bind to ctrl-shift left arrow:
-bind-key -n C-S-Left  swap-window -t -1
-bind-key -n C-S-Right swap-window -t +1
+`bind-key -n C-S-Left  swap-window -t -1`
+`bind-key -n C-S-Right swap-window -t +1`
 
 Atl-arrow to change window:
-bind-key -n M-Left  select-window -t -
-bind-key -n M-Right select-window -t +
+`bind-key -n M-Left  select-window -t -`
+`bind-key -n M-Right select-window -t +`
 
 # copy
 ^b-[  - enter into copy mode, pgup, pgdn
@@ -71,12 +71,12 @@ arrow pgup/dn - to goto the end position
 - switch to pane or file
 ^b ] - to paste tmux buffer
 
-^b:show-buffer
-^b:capture-pane
-^b:list-buffers
-^b:choose-buffer
-^b:save-buffer file
-^b:delete-buffer -b 1
+`^b:show-buffer`
+`^b:capture-pane`
+`^b:list-buffers`
+`^b:choose-buffer`
+`^b:save-buffer file`
+`^b:delete-buffer -b 1`
 
 ------------------------------------------------------
 mouse
@@ -94,8 +94,8 @@ in .tmux.conf
 set -g display-panes-time 5000
 set-option -g display-time 4000
 ```
-display-panes-time - display when you show pane number 
-display-time 4000 - display for status messages
+`display-panes-time` - display when you show pane number 
+`display-time 4000` - display for status messages
 
 
 get cmd from tmux:  
