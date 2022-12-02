@@ -227,6 +227,6 @@ Marker names
 
 #### Other vim cheat sheets
 
-[vimsheet.com](http://vimsheet.com/ "vimsheet" )
-[thevaluable.dev](https://thevaluable.dev/vim-advanced/")
+[vimsheet.com](http://vimsheet.com/ "vimsheet" )  
+[thevaluable.dev](https://thevaluable.dev/vim-advanced/")  
 
