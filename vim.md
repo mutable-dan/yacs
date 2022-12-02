@@ -157,29 +157,29 @@ Marker names
 - A-Z mark between files
 
 #### Window splits
-- :sp - split [file] - ^ws or ^wn
-- :vs - vsplit [file]  - ^wv
+- `:sp` - split [file] - `^ws or ^wn`
+- `:vs` - vsplit [file]  - `^wv`
 - :help split
-- :close
-- :ls show files
-- :b # open file in window
-- ^w arrow
-- ^wn next
-- ^wp prev
-- ^wo close all but
-- ^wc close 
-- ^ww toggle
-- ^w j,k (bottom, top), h,l (left, right)
-- ^w(+-)  resize (horiz) :resize +n|-n|n
-- ^w(<>) resize (virt)  :vert resize +n|-n|n
-- ^w_  zoom horizontal window
-- ^w|  zoom vertical window
-- ^w= equal size
-- #^w(+-)
-- ^w R
-- ^wHJKL ??
-- ^wr
-- ^wx
+- `:close`
+- `:ls` show files
+- `:b #` open file in window
+- `^w `arrow
+- `^wn` next
+- `^wp` prev
+- `^wo` close all but
+- `^wc` close 
+- `^ww` toggle
+- `^w j,k` (bottom, top), h,l (left, right)
+- `^w(+-)`  resize (horiz) :resize +n|-n|n
+- `^w(<>)` resize (virt)  :vert resize +n|-n|n
+- `^w_`  zoom horizontal window
+- `^w|`  zoom vertical window
+- `^w=` equal size
+- `#^w(+-)`
+- `^w R`
+- `^wHJKL ??`
+- `^wr`
+- `^wx`
 
  #### Window move
  - ^w window command mode
