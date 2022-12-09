@@ -83,22 +83,10 @@ set -g mode-mouse on
 set -g mouse-resize-pane on  
 set -g mouse-select-pane on  
 set -g mouse-select-window on  
-```
   
 #### changed timeout for biding q for switching panes    
 https://unix.stackexchange.com/questions/307696/how-to-increase-tmux-pane-numbers-display-time-ctrl-b-q   
   
-in .tmux.conf   
-```
-set -g display-panes-time 5000  
-set-option -g display-time 4000  
-```
-`display-panes-time` - display when you show pane number   
-`display-time 4000` - display for status messages  
-  
-  
-get cmd from tmux:    
-binding :   
   
   
 #### references   
@@ -106,12 +94,9 @@ binding :
 https://man.openbsd.org/tmux.1  
 
 .tmux.conf
-```
+```tmux
 set -g display-panes-time 5000
 set-option -g display-time 4000
-
-#bind-key -n M-left select-window -t -
-#bind-key -n M-right select-window -t +
 
 bind-key -n C-left select-window -t -
 bind-key -n C-right select-window -t +
@@ -126,12 +111,9 @@ set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-sensible'
 set -g @plugin 'tmux-plugins/tmux-resurrect'
 
-# Other examples:
-# set -g @plugin 'github_username/plugin_name'
-# set -g @plugin 'github_username/plugin_name#branch'
-# set -g @plugin 'git@github.com:user/plugin'
-# set -g @plugin 'git@bitbucket.com:user/plugin'
 
 # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
 run '~/.tmux/plugins/tpm/tpm'
 ```
+
+reload ```tmux source-file .tmux.conf```
