@@ -105,5 +105,33 @@ binding :
 
 https://man.openbsd.org/tmux.1  
 
+.tmux.conf
+```
+set -g display-panes-time 5000
+set-option -g display-time 4000
 
+#bind-key -n M-left select-window -t -
+#bind-key -n M-right select-window -t +
 
+bind-key -n C-left select-window -t -
+bind-key -n C-right select-window -t +
+
+bind-key -n M-left select-pane -L
+bind-key -n M-right select-pane -R
+bind-key -n M-up select-pane -U
+bind-key -n M-down select-pane -D
+
+# List of plugins
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+
+# Other examples:
+# set -g @plugin 'github_username/plugin_name'
+# set -g @plugin 'github_username/plugin_name#branch'
+# set -g @plugin 'git@github.com:user/plugin'
+# set -g @plugin 'git@bitbucket.com:user/plugin'
+
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+run '~/.tmux/plugins/tpm/tpm'
+```
