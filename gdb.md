@@ -117,4 +117,15 @@ show detach-on-fork
   Show whether detach-on-fork mode is on/off 
 
     
+### symbol file
+```gcc -g file.c -o file
+cp file file.debug
+strip  --only-keep-debug file.debug
+strip --strip-debug sig
+```
+
+file is exec w/o debug symbols
+
+gdb load symbols
+```symbol-file file.debug```
 
