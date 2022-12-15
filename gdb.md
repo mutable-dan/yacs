@@ -126,6 +126,10 @@ strip --strip-debug sig
 
 file is exec w/o debug symbols
 
-gdb load symbols
-```symbol-file file.debug```
+gdb load symbols ```symbol-file file.debug```
+add more symbol files ```add-symbol-file```
+
+dir with symbol files ```set debug-file-directory```
+show symbol dir ```show debug-file-directory```
+if bin file has debug.link, then symbils are read from this dir w/o paths
 
