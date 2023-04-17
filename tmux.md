@@ -49,8 +49,11 @@ swap-window -s 2 -t 1
 swap current window with #  
 swap-window -t #  
 
-move window
-move-window -t #
+move window  
+move-window -t #  
+
+also try `^b <` and `^b >`
+
   
 bind it to a key where r allows repeat:  
 bind-key -r < swap-window -t -  
