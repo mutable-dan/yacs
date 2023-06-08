@@ -48,6 +48,11 @@ re-indent entire file|gg=G
 indent on brace|>% <% =%
 indent from marker|>'a
 
+indent when pasting|cmd
+-------|-----
+no indent|set paste
+normal|set nopaste
+
 #### misc
 
 Description | example
