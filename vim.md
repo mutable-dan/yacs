@@ -66,6 +66,8 @@ re-do|^r
 repeat last cmd|.
 retab|:retab
 open term|:term
+set paste mode|:set paste 
+unset paste mode|:set nopaste 
 
 #### macros
 
