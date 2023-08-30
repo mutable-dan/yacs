@@ -77,7 +77,7 @@ arrow pgup/dn - to goto the end position
 ^b ] - to paste tmux buffer   
   
 `^b:show-buffer`  
-`^b:capture-pane`  
+`^b:capture-pane`  ex. :capture-pane -S -, :capture-pane -S - -t 2, :capture-pane -a buffname -S -  
 `^b:list-buffers`  
 `^b:choose-buffer`  
 `^b:save-buffer file`  
