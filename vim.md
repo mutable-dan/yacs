@@ -9,6 +9,7 @@ Table|of|Contents
 [indent](#indent)|[ctags](#ctags)|[windows splits](#window-splits)|
 [tabs](#tabs)|[Showchars](#showchar)|[Scroll Commands](#scrolling)
 [Window move](#window-move)|[Range](#range)|[Sessions](#session)
+[delete](#delete)
 
 
 
@@ -211,8 +212,16 @@ Marker names
 - :tabl
 - :tabm [#]
 
- #### range
+#### range
 :n,md delte lines . through m, where n or m can be . or $
+
+#### delete
+- dgg - delete from cursor to beginning 
+- dG - delete from cursor to end 
+- d0 or d^ - delete from cursor to start of line 
+- d$ - delete from cursor to end of line 
+- dta - delete forward until letter 'a' 
+- dTa - delete backward until letter 'a' 
 
  #### session
  :wv [file]  - save viminfo to optional specified file
