@@ -82,7 +82,13 @@ arrow pgup/dn - to goto the end position
 `^b:choose-buffer`  
 `^b:save-buffer file`  
 `^b:delete-buffer -b 1`  
-  
+   
+example:  
+`^b:capture-pane -S -`  
+`^b:save-buffer <filename>`  
+capture: - w/ no count get's all and puts into buffer  
+save: save the buffer to a file  
+
 ------------------------------------------------------  
 mouse  
 set -g mode-mouse on  
