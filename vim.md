@@ -224,7 +224,7 @@ Marker names
 - dTa - delete backward until letter 'a'
 
 #### search
-- / - of course you can to the standard search  
+- / - of course you can do the standard search  
 - \* - search forward word under cursor
 - \# - search backwards word under cursor  
 
