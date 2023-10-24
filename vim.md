@@ -9,7 +9,7 @@ Table|of|Contents
 [indent](#indent)|[ctags](#ctags)|[windows splits](#window-splits)|
 [tabs](#tabs)|[Showchars](#showchar)|[Scroll Commands](#scrolling)
 [Window move](#window-move)|[Range](#range)|[Sessions](#session)
-[delete](#delete)
+[delete](#delete)|[search](#search)
 
 
 
@@ -221,7 +221,12 @@ Marker names
 - d0 or d^ - delete from cursor to start of line 
 - d$ - delete from cursor to end of line 
 - dta - delete forward until letter 'a' 
-- dTa - delete backward until letter 'a' 
+- dTa - delete backward until letter 'a'
+
+#### search
+- / - of course you can to the standard search  
+- \* - search forward word under cursor
+- \# - search backwards word under cursor  
 
  #### session
  :wv [file]  - save viminfo to optional specified file
