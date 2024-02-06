@@ -109,6 +109,8 @@ https://man.openbsd.org/tmux.1
 ```tmux
 set -g display-panes-time 5000
 set-option -g display-time 4000
+set -g escape-time 0
+# use escape-time if pressing esc in vim and another key quickly is a problem
 
 bind-key -n C-left select-window -t -
 bind-key -n C-right select-window -t +
