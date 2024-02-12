@@ -100,6 +100,9 @@ let @a='ctrl-r ctrl-r a'|Paste current macro, put in .vimrc to save a macro
 - % - brace match
 - set showmatch
 - ^o - go back prev position
+- ^i - go forward position
+- gi - goto last position when in insert mode
+- :jumps - see jump list
 
 #### scrolling
 - z<t|z|b> top, middle, bottom
