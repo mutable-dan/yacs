@@ -9,7 +9,7 @@ Table|of|Contents
 [indent](#indent)|[ctags](#ctags)|[windows splits](#window-splits)|
 [tabs](#tabs)|[Showchars](#showchar)|[Scroll Commands](#scrolling)
 [Window move](#window-move)|[Range](#range)|[Sessions](#session)
-[delete](#delete)|[search](#search)
+[delete](#delete)|[search](#search)|[.vimrc](#vimrc)
 
 
 
@@ -254,3 +254,40 @@ Marker names
 [vimsheet.com](http://vimsheet.com/ "vimsheet" )  
 [thevaluable.dev](https://thevaluable.dev/vim-advanced/")  
 
+
+#### vimrc
+.vimrc
+```
+set ts=3                                                                                                                                    
+set ai
+set nu
+set nowrap 
+set expandtab
+set sw=3
+set cursorline
+let @s='J<80>kh<80>kd'
+
+function Cpp_filt()
+        if mode()=="v"
+                let [line_start, column_start] = getpos("v")[1:2]
+                let [line_end, column_end] = getpos(".")[1:2]
+        else
+                let [line_start, column_start] = getpos("'<")[1:2]
+                let [line_end, column_end] = getpos("'>")[1:2]
+        end
+        if (line2byte(line_start)+column_start) > (line2byte(line_end)+column_end)
+                let [line_start, column_start, line_end, column_end] =
+                \   [line_end, column_end, line_start, column_start]
+        end
+        let lines = getline(line_start, line_end)
+        if len(lines) == 0
+                return ''
+        endif
+        let lines[-1] = lines[-1][: column_end - 1]
+        let lines[0] = lines[0][column_start - 1:]
+        echom join(lines, "\n")
+
+endfunction   
+
+map #2 o<ab;le>^M <tr>^M 
+```
