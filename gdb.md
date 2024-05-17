@@ -10,6 +10,8 @@
 - ^l     refresh
 
 ### nav
+r - run  
+start - run and break at main  
 n  
 s  
 fin  
