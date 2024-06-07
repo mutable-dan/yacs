@@ -265,6 +265,9 @@ set nowrap
 set expandtab
 set sw=3
 set cursorline
+set smartindent
+filetype on
+
 let @s='J<80>kh<80>kd'
 
 function Cpp_filt()
