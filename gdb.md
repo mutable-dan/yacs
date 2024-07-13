@@ -123,7 +123,14 @@ show detach-on-fork
 ```gcc -g file.c -o file
 cp file file.debug
 strip  --only-keep-debug file.debug
+strip --strip-debug --strip-unneeded file.debug
 strip --strip-debug sig
+
+make symbol file
+objcopy --only-keep-debug file.symbols
+
+add symbols to release
+objcopy --add-gnu-debuglink=file.symbols  file.dbg
 ```
 
 file is exec w/o debug symbols
