@@ -1,7 +1,9 @@
-### files with control chars
+### files with control chars   
+how to search contents of filesystem and edit a file with unprintable control chars   
+problem is, all files can look the same with the usual tools   
  
 #### grep files show inode
-```  grep -l checkValidity *|xargs -I {} ls -i '{}' ```  
+```  grep -l "some search term" *|xargs -I {} ls -i '{}' ```  
    
 sample output   
 	600434  (unprintable chars)    
