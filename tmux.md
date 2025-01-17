@@ -69,19 +69,27 @@ Atl-arrow to change window:
 
 ### copy  
 ```^b-[  - enter into copy mode, pgup, pgdn  ```
+or ```^b alt pgup ```
+
 arrow pgup/dn - to goto the start position  
 ^-space - mark start position  
 arrow pgup/dn - to goto the end position  
 ^-w - copy text to to tmux buffer  
 - switch to pane or file  
 ^b ] - to paste tmux buffer   
-  
+
+### buffer   
 `^b:show-buffer`  
 `^b:capture-pane`  ex. :capture-pane -S -, :capture-pane -S - -t 2, :capture-pane -a buffname -S -  
 `^b:list-buffers`  
 `^b:choose-buffer`  
 `^b:save-buffer file`  
 `^b:delete-buffer -b 1`  
+
+#### search buffer 
+```ctrl-r``` - reverse search
+```ctrl-s``` - forward search
+```ctrl-n``` - next
    
 example:  
 `^b:capture-pane -S -`  
