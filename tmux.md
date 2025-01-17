@@ -73,7 +73,6 @@ or ```^b alt pgup ```
 
 arrow pgup/dn - to goto the start position  
 ^-space - mark start position  
-arrow pgup/dn - to goto the end position  
 ^-w - copy text to to tmux buffer  
 - switch to pane or file  
 ^b ] - to paste tmux buffer   
@@ -89,7 +88,7 @@ arrow pgup/dn - to goto the end position
 #### search buffer 
 ```ctrl-r``` - reverse search  
 ```ctrl-s``` - forward search  
-```ctrl-n``` - next  
+```shift-n``` - next  
    
 example:  
 `^b:capture-pane -S -`  
