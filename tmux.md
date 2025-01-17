@@ -87,13 +87,14 @@ arrow pgup/dn - to goto the end position
 `^b:delete-buffer -b 1`  
 
 #### search buffer 
-```ctrl-r``` - reverse search
-```ctrl-s``` - forward search
-```ctrl-n``` - next
+```ctrl-r``` - reverse search  
+```ctrl-s``` - forward search  
+```ctrl-n``` - next  
    
 example:  
 `^b:capture-pane -S -`  
 `^b:save-buffer <filename>`  
+  
 capture: - w/ no count get's all and puts into buffer  
 save: save the buffer to a file  
 
