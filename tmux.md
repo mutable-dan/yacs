@@ -29,6 +29,8 @@ tmux attach -t[term]
   
 ### layout  
 `^b-<space>`    cycle layouts  
+`^b<`           opens tui menu for windows, good for swapping windows  
+`^b>`           opens tui menu for panes  
 
 ### window 
 `^b-c`     create win  
@@ -52,7 +54,7 @@ swap-window -t #
 move window  
 move-window -t #  
 
-also try `^b <` and `^b >`
+
 
   
 bind it to a key where r allows repeat:  
