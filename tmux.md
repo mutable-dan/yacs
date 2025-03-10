@@ -18,6 +18,7 @@ tmux attach -t[term]
 `^b-“`     split horiz  
 `^b-x`     close current  
 `^b-q`     show pane #  
+`^b-l`     last pane (similar to cd -)  
 `^b-o`     next   
 `^b-;`     prev  
 `^b-arrow` switch pane  
