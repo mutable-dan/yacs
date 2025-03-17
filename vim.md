@@ -229,7 +229,8 @@ Marker names
 #### search
 - / - of course you can do the standard search  
 - \* - search forward word under cursor
-- \# - search backwards word under cursor  
+- \# - search backwards word under cursor
+- seach selected text - yank text - q / p   
 
  #### session
  :wv [file]  - save viminfo to optional specified file
