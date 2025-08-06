@@ -255,6 +255,7 @@ Marker names
 [vimsheet.com](http://vimsheet.com/ "vimsheet" )  
 [thevaluable.dev](https://thevaluable.dev/vim-advanced/")  
 
+vimgrep -> :copen, :cclose, :grep PATTERN %
 
 #### vimrc
 .vimrc
@@ -291,7 +292,13 @@ function Cpp_filt()
         let lines[0] = lines[0][column_start - 1:]
         echom join(lines, "\n")
 
-endfunction   
+endfunction
+
+if executable('ugrep')                                                                                                                           
+    set grepprg=ugrep\ -RInk\ -j\ -u\ --tabs=1\ --ignore-files
+    set grepformat=%f:%l:%c:%m,%f+%l+%c+%m,%-G%f\\\|%l\\\|%c\\\|%m
+endif
+
 
 map #2 o<ab;le>^M <tr>^M 
 ```
