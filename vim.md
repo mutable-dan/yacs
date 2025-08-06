@@ -255,9 +255,10 @@ Marker names
 [vimsheet.com](http://vimsheet.com/ "vimsheet" )  
 [thevaluable.dev](https://thevaluable.dev/vim-advanced/")  
 
+#### vimrc
+
 vimgrep -> :copen, :cclose, :grep PATTERN %
 
-#### vimrc
 .vimrc
 ```
 set ts=3                                                                                                                                    
