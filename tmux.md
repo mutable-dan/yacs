@@ -12,6 +12,9 @@ tmux attach -t[term]
 `^b-$`     rename  
 `^b-d`     detach  
 `^b-&`     kill window  
+
+Set option to renumber sessions when a sessiion is closed  
+`set-option -g renumber-windows on`
   
 ### pane  
 `^b-%`     split vert  
@@ -120,6 +123,7 @@ https://man.openbsd.org/tmux.1
 ```tmux
 set -g display-panes-time 5000
 set-option -g display-time 4000
+set-option -g renumber-windows on
 set -sg escape-time 0
 # use escape-time if pressing esc in vim and another key quickly is a problem
 
