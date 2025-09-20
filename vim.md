@@ -10,6 +10,7 @@ Table|of|Contents
 [tabs](#tabs)|[Showchars](#showchar)|[Scroll Commands](#scrolling)
 [Window move](#window-move)|[Range](#range)|[Sessions](#session)
 [delete](#delete)|[search](#search)|[.vimrc](#vimrc)
+[grep ugrep pipe vim](#grep-to-vim)||
 
 
 
@@ -248,6 +249,15 @@ Marker names
 #### showchar
 - :set list -> show control char, spaces and tab chars
 - set listchars=tab:!·,trail:·,  -> custom chars
+
+#### grep to vim
+grep and ugrep (ug) pipe to vim -  put curosr on file path and open file  
+```ug -nrI write| vim```  
+```grep -rn write |vim -```  
+Have not found a workaround:  save file ```:w! r```, for example.  
+Put curson on path to file and ```gf```  
+
+
 
 
 #### Other vim cheat sheets
