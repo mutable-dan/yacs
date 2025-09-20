@@ -252,7 +252,7 @@ Marker names
 
 #### grep to vim
 grep and ugrep (ug) pipe to vim -  put curosr on file path and open file  
-```ug -nrI write| vim```  
+```ug -nrI write| vim -```  
 ```grep -rn write |vim -```  
 Have not found a workaround:  save file ```:w! r```, for example.  
 Put curson on path to file and ```gf```  
