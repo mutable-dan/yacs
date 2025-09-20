@@ -142,3 +142,15 @@ dir with symbol files ```set debug-file-directory```
 show symbol dir ```show debug-file-directory```
 if bin file has debug.link, then symbils are read from this dir w/o paths
 
+
+### reading debug info  
+```DEBUGINFOD_URLS=https://debuginfod.ubuntu.com```  
+```unset DEBUGINFOD_URLS```  
+or  
+```set debuginfod enable off``` 
+or put set debuginfod command in ```~/.gdbinit```  
+
+[stack overflow discussion](https://stackoverflow.com/questions/69290986/gdb-keeps-downloading-debug-info)  
+  
+
+
