@@ -26,7 +26,13 @@ enable n
 disable n
 kill
 
+### logging  
+set loggging enable on  
+set loggging enable off  
 
+specify file  
+set logging file <name>  
+  
 ### fork and exec
 - set follow-fork-mode [same|new]
 - set follow-exec-mode [parent|child]
