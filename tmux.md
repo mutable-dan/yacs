@@ -43,6 +43,7 @@ Set option to renumber sessions when a sessiion is closed
 `^b-w`     list  
 `^b-,`     rename  
 `^b-[0-9]` switch to win #  
+`^b-,'`    enter window #  
 `^b pgup or ]`  scroll (q to quit)  
   
 move window back/fwd  (^b :):  
