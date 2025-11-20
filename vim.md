@@ -139,6 +139,14 @@ copy as usual -->
 or paste a reg ^rk
 or ^r ^w
 
+example:  
+yank text or yank to a register  
+insert mode or in a copy replace  
+^r0 for yank  
+or try ^r3  
+can also do:  
+:s/^r0/new text/g  
+  
 #### block select mode
 - ^v  block select mode
 - gv  reselect block
