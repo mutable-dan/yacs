@@ -48,7 +48,8 @@ alias showaliases='cat ~/.bash_aliases'
 alias editaliases='vim ~/.bash_aliases'
 
 #arduino
-alias arduinoIde='firejail --ignore=noroot --ignore=no3d --appimage --private=$HOME/dev/arduino  ~/bin/arduino-ide_2.3.7_Linux_64bit.AppImage --no-sandbox'
+alias arduinoIde='firejail --noprofile --ignore=noroot --ignore=no3d --appimage --private=$HOME/dev/arduino --noblacklist=/dev/ttyACM*  --noblacklist=/dev/ttyUSB* ~/bin/arduino-ide_2.3.7_Linux_64bit.AppImage --no-sandbox'
+
 
 alias myip='echo $(curl -s ifconfig.me)'
 
